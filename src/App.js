@@ -1,12 +1,24 @@
 import { ChakraProvider } from "@chakra-ui/react";
+import React from "react";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 
 function App() {
   return (
     
-      <div>
-        first  line
-      </div>
+      <>
+        <Navigation />
+
+      {/* <main>
+          <Hero />
+          <Specials />
+          <Ratings />
+      </main> */}
+
+        <Footer />
+
+      </>
 
   );
 }
